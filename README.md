@@ -67,6 +67,12 @@ Enable SSH
 $ sudo raspi-config
 	Interface -> SSH -> Enable -> Yes -> Finish
 ```
+Enable SPI
+
+```
+$ sudo raspi-config
+	Interface -> SPI -> Enable -> Yes -> Finish
+```
 Common Error when SSH:
 
 ```
