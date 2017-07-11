@@ -104,14 +104,19 @@ scp -r ~/Desktop/piZero/ pi@[pi-ipaddress]:~/IPS
 
 ## Install Dependencies
 
-From your pi open terminal:
+### Server 
 ```
 $ mkdir ProjectFolder
 $ npm init
 $ sudo npm install kalmanjs express sylvester http body-parser optimized-averages
 ```
-
-
+### Receiver & Sender
+```
+$ sudo apt-get install python-dev
+$ git clone https://github.com/Gadgetoid/py-spidev 
+$ cd py-spidev
+$ sudo make install
+```
 
 
 
