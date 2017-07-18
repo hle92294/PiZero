@@ -124,8 +124,24 @@ $ cd py-spidev
 $ sudo make install
 ```
 
+## Wiring 
+```
+RFM pin - Pi pin  
+3v3     - 17  
+DIO0    - 18 (GPIO24)  
+MOSI    - 19  
+MISO    - 21  
+CLK     - 23  
+NSS     - 24  
+Ground  - 25  
+RESET   - 29
+```
 
-
+## Usage 
+```
+1. Set 3 beacons coordinate and adjust the TX_POWER from the Beacon.py
+2. $ python test.py
+```
 
 
 
