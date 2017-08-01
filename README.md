@@ -46,7 +46,7 @@ Update/Upgrade:
 $ sudo apt-get update
 $ sudo apt-get upgrade
 ```
-Disable Blutooth:
+Disable Bluetooth:
 
 ```
 $ sudo nano /boot/config.txt
